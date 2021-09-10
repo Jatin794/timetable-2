@@ -1,17 +1,17 @@
 var timetable = {
-    days : ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi"],
-    hours : ["8h - 10h", "10h15 - 12h15", "13h30 - 15h30", "15h45 - 17h45"]
+    days : ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+    hours : ["9h30 - 10h30", "11h - 12h", "12h30 - 13h30", "16h-19h"]
 }
 
 var courses = {
-    "Computer Algebra" : {
+    "7.2 Environmental Law" : {
         classes : {
-            "TD CA" : {
+            "Env Law" : {
 				hour : 1,
 				day : 2,
 				room : "Amphi B"
 			},
-            "CA" : {
+            "Env Law" : {
 				hour : 2,
 				day : 5,
 				room : "Amphi B"
@@ -20,19 +20,19 @@ var courses = {
         color : "#d5a6bd",
         links : [
             {
-                url: "https://google.com",
+                url: "https://g01.tcsion.com/LX/home/home_page?c_id=llband047-72-environmental-law-class-name-class-7-412-511#tab3",
                 name: "Main page"
             }
         ]
     },
-    "Computation and Complexity" : {
+    "Intellectual Property Rights" : {
         classes : {
-            "TD CC" : {
+            "IPr" : {
 				hour : 3,
 				day : 5,
 				room : "B2"
 			},
-            "CC" : {
+            "IPr" : {
 				hour : 2,
 				day : 3,
 				room : "Amphi B"
@@ -46,14 +46,14 @@ var courses = {
             }
         ]
     },
-    "Computer Graphics and Digital Images" : {
+    "Banking Law & Negotiable Instruments Act" : {
         classes : {
-            "TP CGDI" : {
+            "B&NIA" : {
 				hour : 2,
 				day : 4,
 				room : "B2"
 			},
-            "CGDI" : {
+            "B&NIA" : {
 				hour : 2,
 				day : 1,
 				room : "Amphi B"
@@ -62,14 +62,14 @@ var courses = {
         color: "#c9daf8",
         links : []
     },
-    "Cryptography and Security" : {
+    "Corporate Law" : {
         classes : {
-            "TD CS" : {
+            "Corp" : {
 				hour : 3,
 				day : 3,
 				room : "B2"
 			},
-            "CS" : {
+            "Corp" : {
 				hour : 1,
 				day : 4,
 				room : "Amphi B"
@@ -83,130 +83,9 @@ var courses = {
             }
         ]
     },
-    "DataBases and Data Mining" : {
+    "Seminar (Trademark/Design Law)" : {
         classes : {
-            "TD DBDM" : {
-				hour : 4,
-				day : 5,
-				room : "B2"
-			},
-            "DBDM" : {
-				hour : 3,
-				day : 4,
-				room : "Amphi B"
-			}
-        },
-        color: "#d0e0e3",
-        links : [
-            {
-                url: "https://google.com",
-                name: "Main page"
-            }
-        ]
-    },
-    "Distributed Systems" : {
-        classes : {
-            "TP DS" : {
-				hour : 4,
-				day : 2,
-				room : "B2"
-			},
-            "DS" : {
-				hour : 1,
-				day : 1,
-				room : "Amphi B"
-			}
-        },
-        color: "#e6b8af",
-        links : [
-            {
-                url: "https://google.com",
-                name: "Main page"
-            }
-        ]
-    },
-    "Machine Learning" : {
-        classes : {
-            "TD ML" : {
-				hour : 4,
-				day : 4,
-				room : "Amphi B"
-			},
-            "ML" : {
-				hour : 2,
-				day : 2,
-				room : "Amphi B"
-			}
-        },
-        color: "rgb(168, 230, 240)",
-        links : [
-            {
-                url: "https://google.com",
-                name: "Main page"
-            }
-        ]
-    },
-    "Programs and Proofs" : {
-        classes : {
-            "TD PP" : {
-				hour : 1,
-				day : 5,
-				room : "Amphi B"
-			},
-            "PP" : {
-				hour : 3,
-				day : 2,
-				room : "Amphi B"
-			}
-        },
-        color: "#fce5cd",
-        links : [
-            {
-                url: "https://google.com",
-                name: "Main page"
-            }
-        ]
-    },
-    "Semantics and Verification" : {
-        classes : {
-            "TD SV" : {
-				hour : 4,
-				day : 1,
-				room : "B2"
-			},
-            "SV" : {
-				hour : 1,
-				day : 3,
-				room : "Amphi B"
-			}
-        },
-        color: "rgb(168, 240, 202)",
-        links : [
-            {
-                url: "https://google.com",
-                name: "Main page"
-            }
-        ]
-    },
-    "Integrated Project" : {
-        classes : {
-            "IP" : {
-				hour : 3,
-				day : 1,
-				room : "B1 - B2"
-			}
-        },
-        color: "rgb(174, 168, 240)",
-        links : [
-            {
-                url: "https://google.com",
-                name: "Main page"
-            }
-        ]
-    },
-    "SIESTE" : {
-        classes : {
-            "Seminaire" : {
+            "Seminar" : {
 				hour : 4,
 				day : 3,
 				room : ""
@@ -215,7 +94,23 @@ var courses = {
         color: "rgb(203, 240, 168)",
         links : [
             {
-                url: "https://google.com",
+                url: "https://g01.tcsion.com/LX/home/home_page?c_id=seminar-course-indian-trade-marks-design-law-981-511#tab3",
+                name: "Main page"
+            }
+        ]
+    },
+    "Seminar (Insolvency)" : {
+        classes : {
+            "Audit" : {
+				hour : 4,
+				day : 3,
+				prof : "Dr. Risham Garg"
+			}
+        },
+        color: "rgb(203, 240, 168)",
+        links : [
+            {
+                url: "https://g01.tcsion.com/LX/home/home_page?c_id=seminar-course-indian-trade-marks-design-law-981-511#tab3",
                 name: "Main page"
             }
         ]
