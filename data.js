@@ -6,17 +6,17 @@ var timetable = {
 var courses = {
     "7.2 Environmental Law" : {
         classes : {
-            "Env Law" : {
+            "Env Law 1" : {
 				hour : 1,
 				day : 1,
 				prof : "Prof. Bharti Kumar"
 			},
-            "Env Law" : {
+            "Env Law 2" : {
 				hour : 2,
 				day : 2,
 				prof : "Prof. Bharti Kumar"
 			},
-            "Env Law" : {
+            "Env Law 3" : {
 				hour : 1,
 				day : 3,
 				prof : "Prof. Bharti Kumar"
@@ -32,17 +32,17 @@ var courses = {
     },
     "7.3 Intellectual Property Rights" : {
         classes : {
-            "IPr" : {
+            "IPr 1" : {
 				hour : 2,
 				day : 1,
 				prof : "Dr. Vishal Mahalwar/Yogesh Pai"
 			},
-            "IPr" : {
+            "IPr 2" : {
 				hour : 1,
 				day : 2,
 				prof : "Dr. Vishal Mahalwar/Yogesh Pai"
 			},
-            "IPr" : {
+            "IPr 3" : {
 				hour : 3,
 				day : 4,
 				prof : "Dr. Vishal Mahalwar/Yogesh Pai"
@@ -58,17 +58,17 @@ var courses = {
     },
     "7.4 Banking Law & Negotiable Instruments Act" : {
         classes : {
-            "B&NIA" : {
+            "B&NIA 1" : {
 				hour : 3,
 				day : 2,
 				prof : "Prof. Anil Kumar Rai"
 			},
-            "B&NIA" : {
+            "B&NIA 2" : {
 				hour : 2,
 				day : 3,
 				prof : "Prof. Anil Kumar Rai"
 			},
-            "B&NIA" : {
+            "B&NIA 3" : {
 				hour : 1,
 				day : 4,
 				prof : "Prof. Anil Kumar Rai"
@@ -84,12 +84,12 @@ var courses = {
     },
     "7.1 Corporate Law" : {
         classes : {
-            "Corp-I" : {
+            "Corp-I 1" : {
 				hour : 3,
 				day : 1,
 				prof : "Prof. Harpreet Kaur/Dr. Aparajita Bhatt"
 			},
-            "Corp-I" : {
+            "Corp-I 2" : {
 				hour : 3,
 				day : 3,
 				prof : "Prof. Harpreet Kaur/Dr. Aparajita Bhatt"
