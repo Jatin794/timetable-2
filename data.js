@@ -1,5 +1,5 @@
 var timetable = {
-    days : ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+    days : ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
     hours : ["9h30 - 10h30", "11h - 12h", "12h30 - 13h30", "16h-19h"]
 }
 
