@@ -8,13 +8,18 @@ var courses = {
         classes : {
             "Env Law" : {
 				hour : 1,
-				day : 2,
-				room : "Amphi B"
+				day : 1,
+				prof : "Prof. Bharti Kumar"
 			},
             "Env Law" : {
 				hour : 2,
-				day : 5,
-				room : "Amphi B"
+				day : 2,
+				prof : "Prof. Bharti Kumar"
+			},
+            "Env Law" : {
+				hour : 1,
+				day : 3,
+				prof : "Prof. Bharti Kumar"
 			}
         },
         color : "#d5a6bd",
@@ -25,54 +30,59 @@ var courses = {
             }
         ]
     },
-    "Intellectual Property Rights" : {
+    "7.3 Intellectual Property Rights" : {
         classes : {
             "IPr" : {
 				hour : 3,
 				day : 5,
-				room : "B2"
+				prof : "Dr. Vishal Mahalwar/Yogesh Pai"
 			},
             "IPr" : {
 				hour : 2,
 				day : 3,
-				room : "Amphi B"
+				prof : "Dr. Vishal Mahalwar/Yogesh Pai"
 			}
         },
         color: "#f4cccc",
         links : [
             {
-                url: "https://google.com",
+                url: "https://g01.tcsion.com/LX/home/home_page?c_id=llband047-73-intellectual-property-rights-law-clas-892-511#tab3",
                 name: "Main page"
             }
         ]
     },
-    "Banking Law & Negotiable Instruments Act" : {
+    "7.4 Banking Law & Negotiable Instruments Act" : {
         classes : {
             "B&NIA" : {
 				hour : 2,
 				day : 4,
-				room : "B2"
+				prof : "Prof. Anil Kumar Rai"
 			},
             "B&NIA" : {
 				hour : 2,
 				day : 1,
-				room : "Amphi B"
+				prof : "Prof. Anil Kumar Rai"
 			}
         },
         color: "#c9daf8",
-        links : []
+        links : [
+            {
+                url: "https://g01.tcsion.com/LX/home/home_page?c_id=llband047-74-banking-law-class-name-class-7-1-cour-128-511#tab3",
+                name: "Main page"
+            }
+        ]
     },
-    "Corporate Law" : {
+    "7.1 Corporate Law" : {
         classes : {
             "Corp" : {
 				hour : 3,
 				day : 3,
-				room : "B2"
+				prof : "Prof. Harpreet Kaur/Dr. Aparajita Bhatt"
 			},
             "Corp" : {
 				hour : 1,
 				day : 4,
-				room : "Amphi B"
+				prof : "Prof. Harpreet Kaur/Dr. Aparajita Bhatt"
 			}
         },
         color: "#d9d2e9",
@@ -88,7 +98,7 @@ var courses = {
             "Seminar" : {
 				hour : 4,
 				day : 3,
-				room : ""
+				prof : "Eashan Ghosh"
 			}
         },
         color: "rgb(203, 240, 168)",
@@ -103,14 +113,14 @@ var courses = {
         classes : {
             "Audit" : {
 				hour : 4,
-				day : 3,
+				day : 2,
 				prof : "Dr. Risham Garg"
 			}
         },
         color: "rgb(203, 240, 168)",
         links : [
             {
-                url: "https://g01.tcsion.com/LX/home/home_page?c_id=seminar-course-indian-trade-marks-design-law-981-511#tab3",
+                url: "https://g01.tcsion.com/LX/home/home_page?c_id=insolvency-restructuring-and-entrepreneurship-law-471-511#tab3",
                 name: "Main page"
             }
         ]
