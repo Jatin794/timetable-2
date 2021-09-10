@@ -33,13 +33,18 @@ var courses = {
     "7.3 Intellectual Property Rights" : {
         classes : {
             "IPr" : {
-				hour : 3,
-				day : 5,
+				hour : 2,
+				day : 1,
 				prof : "Dr. Vishal Mahalwar/Yogesh Pai"
 			},
             "IPr" : {
-				hour : 2,
-				day : 3,
+				hour : 1,
+				day : 2,
+				prof : "Dr. Vishal Mahalwar/Yogesh Pai"
+			},
+            "IPr" : {
+				hour : 3,
+				day : 4,
 				prof : "Dr. Vishal Mahalwar/Yogesh Pai"
 			}
         },
@@ -54,13 +59,18 @@ var courses = {
     "7.4 Banking Law & Negotiable Instruments Act" : {
         classes : {
             "B&NIA" : {
-				hour : 2,
-				day : 4,
+				hour : 3,
+				day : 2,
 				prof : "Prof. Anil Kumar Rai"
 			},
             "B&NIA" : {
 				hour : 2,
-				day : 1,
+				day : 3,
+				prof : "Prof. Anil Kumar Rai"
+			},
+            "B&NIA" : {
+				hour : 1,
+				day : 4,
 				prof : "Prof. Anil Kumar Rai"
 			}
         },
@@ -74,13 +84,18 @@ var courses = {
     },
     "7.1 Corporate Law" : {
         classes : {
-            "Corp" : {
+            "Corp-I" : {
+				hour : 3,
+				day : 1,
+				prof : "Prof. Harpreet Kaur/Dr. Aparajita Bhatt"
+			},
+            "Corp-I" : {
 				hour : 3,
 				day : 3,
 				prof : "Prof. Harpreet Kaur/Dr. Aparajita Bhatt"
 			},
-            "Corp" : {
-				hour : 1,
+            "Corp-II" : {
+				hour : 2,
 				day : 4,
 				prof : "Prof. Harpreet Kaur/Dr. Aparajita Bhatt"
 			}
@@ -88,7 +103,7 @@ var courses = {
         color: "#d9d2e9",
         links : [
             {
-                url: "https://google.com",
+                url: "https://g01.tcsion.com/LX/home/home_page?c_id=llband047-71-corporate-law-i-class-name-class-7-1-923-511#tab3",
                 name: "Main page"
             }
         ]
@@ -97,7 +112,7 @@ var courses = {
         classes : {
             "Seminar" : {
 				hour : 4,
-				day : 3,
+				day : 5,
 				prof : "Eashan Ghosh"
 			}
         },
