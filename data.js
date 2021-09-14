@@ -26,7 +26,8 @@ var courses = {
         links : [
             {
                 url: "https://g01.tcsion.com/LX/home/home_page?c_id=llband047-72-environmental-law-class-name-class-7-412-511#tab3",
-                name: "Main page";
+                name: "Main page"},
+		{
 		url: "https://www.youtube.com/playlist?list=PLTtI_lmJSsyvhG6b2s8tNumHaLQtNKqTN",
                 name: "Youtube playlist"
             }
@@ -54,7 +55,8 @@ var courses = {
         links : [
             {
                 url: "https://g01.tcsion.com/LX/home/home_page?c_id=llband047-73-intellectual-property-rights-law-clas-892-511#tab3",
-                name: "Main page",
+                name: "Main page"},
+		{
 		url: "https://www.youtube.com/playlist?list=PLTtI_lmJSsyuN79GLo5q7BpuPeiG_o7D7",
                 name: "Youtube playlist"
             }
@@ -82,7 +84,8 @@ var courses = {
         links : [
             {
                 url: "https://g01.tcsion.com/LX/home/home_page?c_id=llband047-74-banking-law-class-name-class-7-1-cour-128-511#tab3",
-                name: "Main page",
+                name: "Main page"},
+		{
 		url: "https://www.youtube.com/playlist?list=PLTtI_lmJSsyvYvGhNoO0CUmv6t6-1JcqC",
                 name: "Youtube playlist"
             }
@@ -110,7 +113,8 @@ var courses = {
         links : [
             {
                 url: "https://g01.tcsion.com/LX/home/home_page?c_id=llband047-71-corporate-law-i-class-name-class-7-1-923-511#tab3",
-                name: "Main page",
+                name: "Main page"},
+		{
 		url: "https://www.youtube.com/playlist?list=PLTtI_lmJSsyvJ1h8FwYDvjaN3QnKTCnaM",
                 name: "Youtube playlist"
             }
