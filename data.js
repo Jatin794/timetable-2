@@ -26,7 +26,7 @@ var courses = {
         links : [
             {
                 url: "https://g01.tcsion.com/LX/home/home_page?c_id=llband047-72-environmental-law-class-name-class-7-412-511#tab3",
-                name: "Main page",
+                name: "Main page";
 		url: "https://www.youtube.com/playlist?list=PLTtI_lmJSsyvhG6b2s8tNumHaLQtNKqTN",
                 name: "Youtube playlist"
             }
