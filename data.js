@@ -1,109 +1,109 @@
 var timetable = {
-    days : ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+    days : ["Monday (for Section B)", "Tuesday (for Section A)", "Wednesday (for Section B)", "Thursday (for Section A)", "Saturday"],
     hours : ["9h30 - 10h30", "11h - 12h", "12h30 - 13h30", "16h-19h"]
 }
 
 var courses = {
-    "7.2 Environmental Law" : {
+    "8.2 Taxation Laws" : {
         classes : {
-            "Env Law 1" : {
+            "Tax Law 1" : {
 				hour : 1,
 				day : 1,
-				prof : "Prof. Bharti Kumar"
+				prof : "Dr. Jasper Vikas/Ms. Preeti Lakhera"
 			},
-            "Env Law 2" : {
-				hour : 2,
+            "Tax Law 2" : {
+				hour : 3,
 				day : 2,
-				prof : "Prof. Bharti Kumar"
+				prof : "Dr. Jasper Vikas/Ms. Preeti Lakhera"
 			},
-            "Env Law 3" : {
+            "Tax Law 3" : {
 				hour : 1,
 				day : 3,
-				prof : "Prof. Bharti Kumar"
+				prof : "Dr. Jasper Vikas/Ms. Preeti Lakhera"
 			}
         },
         color : "#d5a6bd",
         links : [
             {
-                url: "https://g01.tcsion.com/LX/home/home_page?c_id=llband047-72-environmental-law-class-name-class-7-412-511#tab3",
+                url: "https://g01.tcsion.com/LX/home/home_page?c_id=llband047-82-taxation-laws-class-name-class-8-1-co-713-511#tab3",
                 name: "Main page"},
 		{
-		url: "https://www.youtube.com/playlist?list=PLTtI_lmJSsyvhG6b2s8tNumHaLQtNKqTN",
+		url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
                 name: "Youtube playlist"
             }
         ]
     },
-    "7.3 Intellectual Property Rights" : {
+    "8.3 Cyber Laws" : {
         classes : {
-            "IPr 1" : {
-				hour : 2,
+            "Cyber Laws 1" : {
+				hour : 3,
 				day : 1,
-				prof : "Dr. Vishal Mahalwar/Yogesh Pai"
+				prof : "Dr. Vishal Mahalwar/Dr. Aparajita Bhatt"
 			},
-            "IPr 2" : {
-				hour : 1,
+            "Cyber Laws 2" : {
+				hour : 2,
 				day : 2,
-				prof : "Dr. Vishal Mahalwar/Yogesh Pai"
+				prof : "Dr. Vishal Mahalwar/Dr. Aparajita Bhatt"
 			},
-            "IPr 3" : {
+            "Cyber Laws 3" : {
 				hour : 3,
 				day : 4,
-				prof : "Dr. Vishal Mahalwar/Yogesh Pai"
+				prof : "Dr. Vishal Mahalwar/Dr. Aparajita Bhatt"
 			}
         },
         color: "#f4cccc",
         links : [
             {
-                url: "https://g01.tcsion.com/LX/home/home_page?c_id=llband047-73-intellectual-property-rights-law-clas-892-511#tab3",
+                url: "https://g01.tcsion.com/LX/home/home_page?c_id=llband047-83-cyber-laws-class-name-class-8-1-cours-497-511#tab3",
                 name: "Main page"},
 		{
-		url: "https://www.youtube.com/playlist?list=PLTtI_lmJSsyuN79GLo5q7BpuPeiG_o7D7",
+		url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
                 name: "Youtube playlist"
             }
         ]
     },
-    "7.4 Banking Law & Negotiable Instruments Act" : {
+    "8.4 Clinic" : {
         classes : {
-            "B&NIA 1" : {
-				hour : 3,
+            "Clinic 1" : {
+				hour : 1,
 				day : 2,
-				prof : "Prof. Anil Kumar Rai"
+				prof : "Dr. Jasper Vikas"
 			},
-            "B&NIA 2" : {
+            "Clinic 2" : {
 				hour : 2,
 				day : 3,
-				prof : "Prof. Anil Kumar Rai"
+				prof : "Dr. Jasper Vikas"
 			},
-            "B&NIA 3" : {
+            "Clinic 3" : {
 				hour : 1,
 				day : 4,
-				prof : "Prof. Anil Kumar Rai"
+				prof : "Dr. Jasper Vikas"
 			}
         },
         color: "#c9daf8",
         links : [
             {
-                url: "https://g01.tcsion.com/LX/home/home_page?c_id=llband047-74-banking-law-class-name-class-7-1-cour-128-511#tab3",
+                url: "https://g01.tcsion.com/LX/home/home_page?c_id=llband047-84-clinic-ii-class-name-class-8-1-course-910-511#tab3",
                 name: "Main page"},
 		{
-		url: "https://www.youtube.com/playlist?list=PLTtI_lmJSsyvYvGhNoO0CUmv6t6-1JcqC",
+		url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
                 name: "Youtube playlist"
             }
         ]
     },
-    "7.1 Corporate Law" : {
+    "8.1 Corporate Law II" : {
         classes : {
-            "Corp-I 1" : {
-				hour : 3,
+            "Corp-II 1" : {
+				hour : 2,
 				day : 1,
 				prof : "Prof. Harpreet Kaur/Dr. Aparajita Bhatt"
 			},
-            "Corp-I 2" : {
+            "Corp-II 2" : {
 				hour : 3,
 				day : 3,
 				prof : "Prof. Harpreet Kaur/Dr. Aparajita Bhatt"
 			},
-            "Corp-II" : {
+            "Corp-II 3" : {
 				hour : 2,
 				day : 4,
 				prof : "Prof. Harpreet Kaur/Dr. Aparajita Bhatt"
@@ -112,42 +112,26 @@ var courses = {
         color: "#d9d2e9",
         links : [
             {
-                url: "https://g01.tcsion.com/LX/home/home_page?c_id=llband047-71-corporate-law-i-class-name-class-7-1-923-511#tab3",
+                url: "https://g01.tcsion.com/LX/home/home_page?c_id=llband047-81-corporate-law-ii-class-name-class-8-1-261-511#tab3",
                 name: "Main page"},
 		{
-		url: "https://www.youtube.com/playlist?list=PLTtI_lmJSsyvJ1h8FwYDvjaN3QnKTCnaM",
+		url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
                 name: "Youtube playlist"
             }
         ]
     },
-    "Seminar (Trademark/Design Law)" : {
+    "Seminar (no TCS yet)" : {
         classes : {
             "Seminar" : {
 				hour : 4,
 				day : 5,
-				prof : "Eashan Ghosh"
+				prof : "Rahul Bajaj"
 			}
         },
         color: "rgb(203, 240, 168)",
         links : [
             {
-                url: "https://g01.tcsion.com/LX/home/home_page?c_id=seminar-course-indian-trade-marks-design-law-981-511#tab3",
-                name: "Main page"
-            }
-        ]
-    },
-    "Seminar (Insolvency)" : {
-        classes : {
-            "Audit" : {
-				hour : 4,
-				day : 2,
-				prof : "Dr. Risham Garg"
-			}
-        },
-        color: "rgb(203, 240, 168)",
-        links : [
-            {
-                url: "https://g01.tcsion.com/LX/home/home_page?c_id=insolvency-restructuring-and-entrepreneurship-law-471-511#tab3",
+                url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
                 name: "Main page"
             }
         ]
