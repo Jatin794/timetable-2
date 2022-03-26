@@ -120,9 +120,9 @@ var courses = {
             }
         ]
     },
-    "Seminar (PLFR)" : {
+    "Private Law and Fundamental Rights" : {
         classes : {
-            "Private Law and Fundamental Rights" : {
+            "Seminar (PLFR)" : {
 				hour : 4,
 				day : 5,
 				prof : "Rahul Bajaj"
