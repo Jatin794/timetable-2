@@ -120,9 +120,9 @@ var courses = {
             }
         ]
     },
-    "Seminar (no TCS yet)" : {
+    "Seminar (PLFR)" : {
         classes : {
-            "Seminar" : {
+            "Private Law and Fundamental Rights" : {
 				hour : 4,
 				day : 5,
 				prof : "Rahul Bajaj"
@@ -131,7 +131,7 @@ var courses = {
         color: "rgb(203, 240, 168)",
         links : [
             {
-                url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+                url: "https://g01.tcsion.com/LX/home/home_page?c_id=seminar-courses-feb-to-june-2022-seminar-courses-f-525-511#tab3",
                 name: "Main page"
             }
         ]
